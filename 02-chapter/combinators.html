@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link ref="stylesheet" type="text/css" href="combinator.css" />
+    <link rel="stylesheet" href="combinator.css" />
     <title>Combinators</title>
   </head>
   <body>
@@ -18,16 +18,34 @@
     <p>h2 + p {</p>
     <p style="padding-left: 15px">color: red;</p>
     <p>}</p>
+    <h4>Child</h4>
+    <p>h2 > p {</p>
+    <p style="padding-left: 15px">color: red;</p>
+    <p>}</p>
+    <h4>General Sibling</h4>
+    <p>h2 ~ p {</p>
+    <p style="padding-left: 15px">color: red;</p>
+    <p>}</p>
+    <h4>Descendant</h4>
+    <p>h2 p {</p>
+    <p style="padding-left: 15px">color: red;</p>
+    <p>}</p>
 
     <p>trying out adjacent siblings</p>
+
     <div>
-      <h2>Not Applied</h2>
       <p>CSS applied</p>
       <h2>Not Applied</h2>
-      <h3 class="hel">Not Applied</h3>
+      <p>CSS applied</p>
+      <p>CSS applied</p>
+      <h2>Not Applied</h2>
+      <h3>Not Applied</h3>
       <p>Not Applied</p>
+      <p>CSS applied</p>
       <h2>Not Applied</h2>
       <p>CSS Applied</p>
+      <p>CSS applied</p>
+      <p>CSS applied</p>
     </div>
   </body>
 </html>
