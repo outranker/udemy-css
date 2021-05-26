@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div1 {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid red;
+    padding: 5px;
+    height: 300px;
+    width: 50%;
+}
+.main-div2 {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.main-div2:hover {
+    border: 1px green solid;
+}
