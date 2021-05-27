@@ -30,11 +30,11 @@ body {
 }
 
 .parent .child-1 {
-  position: fixed;
-  width: 400px;
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: 100%;
-  box-sizing: border-box;
+  position: relative;
+  /* width: 400px; */
+  top: 50px;
+  right: 50px;
+  /* margin: 0; */
+  /* width: 100%; */
+  /* box-sizing: border-box; */
 }
