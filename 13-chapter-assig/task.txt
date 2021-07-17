@@ -1,0 +1,6 @@
+part 1
+
+
+1. change .plan__list to flex container
+2. .plan should also be flex container
+3. work with .plan--highlighted using z-index
